@@ -1,0 +1,3 @@
+En utilisant les deux bibliothèques "Numba" et  "Pyccel" on remarque que le temps nécssaire pour executer les même code (qui sont dans notre cas des code de la résolution des équations a dérivée partielles) ne sont pas les même et qu'il sont significativement réduit jusqu'à 10000 fois, donc on peut facilement observer l'importance de ces deux bibliothèque.
+
+mais on peut pas conclure que l'une de ces deux bibliothèque et la meilleure car parfois ces pyccel qui nous donne un temps oprimal et parfois ces le contraire, et puisque jusqu'à on peut tester les deux avant de juger. on peut se baser sur ce test pour choisir quelle bibliothèque pqrmi ces deux on doit choisir pour obtenir la meilleur performance possible de nos codes.
