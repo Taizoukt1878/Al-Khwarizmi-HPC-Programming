@@ -33,7 +33,7 @@ main ()
       //getting end time;
       clock_t end = clock ();
       // Cpu_Time
-      msec = (end - begin) * 10000;
+      msec = (end - begin) * 1000;
       // Bande_passante
       rate = 8 * N * (1000.0 / msec) / (1024 * 1024);
       printf ("-----------------------------------------\n\n");
